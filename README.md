@@ -23,8 +23,8 @@ Divirta-se
 
 Realize o build da imagem golang
 
-> docker build -t <seu-user>/codeeducation ./golang
+> docker build -t `<seu-user>`/codeeducation ./golang
 
 Execute o container golang-app
 
-> docker run -it --rm --name golang-app <seu-user>/codeeducation
+> docker run -it --rm --name golang-app `<seu-user>`/codeeducation
